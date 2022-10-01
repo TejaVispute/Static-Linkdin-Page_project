@@ -52,13 +52,32 @@
         display: none;
       }
       .middle_postsection{
-        width: 500px;
+        width: 450px;
       }
       .post_body img{
-        width: 480px;
+        width: 400px;
         margin-left: 0px;
       }
-      
+      .main-body{
+        margin: 0px;
+        padding: 0px;
+      }
+      .input_op img{
+        width: 15px;
+      }
+      .input_op h4{
+        font-size: 14px;
+      }
+      .post_input img {
+        width: 40px;
+        height: 40px;
+    }
+    .post_input input {
+      width: 80%;
+      padding: 10px;
+      margin-left: 8px;
+  
+  }
   }
 
 
