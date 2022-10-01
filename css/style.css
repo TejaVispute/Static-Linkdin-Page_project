@@ -10,9 +10,7 @@ body {
     height: 50px;
     position: fixed;
     justify-content: space-evenly;
-    z-index: 999;
     border-bottom: 0.5px solid lightgrey;
-    padding: 5px;
 
 }
 
@@ -49,7 +47,6 @@ body {
     outline: none;
     background: none;
     border: none;
-
     border-radius: 8px;
 }
 
@@ -98,7 +95,7 @@ body {
 
 }
 
-#my_img_info{
+#my_img_info {
     border-radius: 50%;
 }
 
@@ -202,7 +199,7 @@ body {
 
 }
 
-.post_input{
+.post_input {
     display: flex;
     justify-content: space-evenly;
 }
@@ -214,10 +211,11 @@ body {
     padding: 15px;
     border-radius: 20px;
 }
-.post_input img{
+
+.post_input img {
     width: 50px;
     height: 50px;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
 .icons {
@@ -267,7 +265,8 @@ body {
 }
 
 .post_header .amazon_icon {
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 
 .post_body img {

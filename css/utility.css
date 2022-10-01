@@ -19,10 +19,11 @@
 }
 
 
-.input_op:hover{
+ .input_op img:hover{
     background-color:lightgrey;
+    border-radius: 10px;
 
-}
+} 
 
 .post_info p:hover{
   color:blue;
@@ -39,12 +40,23 @@
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     .sidebar{
       display: none;
     }
     .main-body{
       padding: 0px;
+      }
+  
+      .search{
+        display: none;
+      }
+      .middle_postsection{
+        width: 525px;
+      }
+      .post_body img{
+        width: 480px;
+        margin-left: 0px;
       }
       
   }
