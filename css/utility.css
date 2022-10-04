@@ -19,7 +19,7 @@
 }
 
 
- .input_op img:hover{
+ .input_op:hover{
     background-color:lightgrey;
     border-radius: 10px;
 
