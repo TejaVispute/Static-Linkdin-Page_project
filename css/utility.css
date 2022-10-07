@@ -1,84 +1,72 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-
 
 /* hover effect for right navbar icons */
 
-.right_icons:hover{
-    color:black;
+.right_icons:hover {
+  color: black;
 }
 
-
-
-.post_logos:hover{
-    background-color:lightgrey;
+.post_logos:hover {
+  background-color: lightgrey;
 }
 
-
- .input_op:hover{
-    background-color:lightgrey;
-    border-radius: 10px;
-
-} 
-
-.post_info p:hover{
-  color:blue;
-  
+.input_op:hover {
+  background-color: lightgrey;
+  border-radius: 10px;
 }
 
+.post_info p:hover {
+  color: blue;
+}
 
-
+/* This mediaquery removes right section when it reach on 1000 px */
 @media screen and (max-width: 1000px) {
-    .right_widjets {
-      display: none;
-    }
+  .right_widjets {
+    display: none;
   }
+}
 
-
-
+/* This mediaquery used for making website responsive */
 @media screen and (max-width: 600px) {
-    .sidebar{
-      display: none;
-    }
-    .main-body{
-      padding: 0px;
-      }
-  
-      .search{
-        display: none;
-      }
-      .middle_postsection{
-        width: 450px;
-      }
-      .post_body img{
-        width: 400px;
-        margin-left: 0px;
-      }
-      .main-body{
-        margin: 0px;
-        padding: 0px;
-      }
-      .input_op img{
-        width: 15px;
-      }
-      .input_op h4{
-        font-size: 14px;
-      }
-      .post_input img {
-        width: 40px;
-        height: 40px;
-    }
-    .post_input input {
-      width: 80%;
-      padding: 10px;
-      margin-left: 8px;
-  
+  .sidebar {
+    display: none;
   }
+  .main-body {
+    padding: 0px;
   }
 
-
-
+  .search {
+    display: none;
+  }
+  .middle_postsection {
+    width: 450px;
+  }
+  .post_body img {
+    width: 400px;
+    margin-left: 0px;
+  }
+  .main-body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .input_op img {
+    width: 15px;
+  }
+  .input_op h4 {
+    font-size: 14px;
+  }
+  .post_input img {
+    width: 40px;
+    height: 40px;
+  }
+  .post_input input {
+    width: 80%;
+    padding: 10px;
+    margin-left: 8px;
+  }
+}

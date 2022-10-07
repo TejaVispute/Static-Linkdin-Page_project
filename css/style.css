@@ -1,369 +1,344 @@
 /* navigation bar */
 body {
-    background-color: #F3F2EF;
+  background-color: #f3f2ef;
 }
 
+/* Navigation bar starts from here */
 #navbar {
-    background-color: white;
-    display: flex;
-    width: 100%;
-    z-index: 1;
-    height: 50px;
-    position: fixed;
-    justify-content: space-evenly;
-    border-bottom: 0.5px solid lightgrey;
-
+  background-color: white;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  height: 50px;
+  position: fixed;
+  justify-content: space-evenly;
+  border-bottom: 0.5px solid lightgrey;
 }
 
+/* linkedin Logo styled here */
 #navbar .logo img {
-    height: 35px;
-
+  height: 35px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+/* home about message icons alined here */
 .nav_right {
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    align-items: center;
-
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
 }
 
+/* search button styled here */
 .search {
-    display: flex;
-    padding: 10px;
-    margin: 5px;
-    align-items: center;
-    height: 25px;
-    background-color: #eef3f8;
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+  align-items: center;
+  height: 25px;
+  background-color: #eef3f8;
 }
 
+/* input search styled here */
 .search input {
-    padding: 10px;
-    outline: none;
-    background: none;
-    border: none;
-    border-radius: 8px;
+  padding: 10px;
+  outline: none;
+  background: none;
+  border: none;
+  border-radius: 8px;
 }
 
-
-
-/* right icons  */
+/* home about icons color changed here and positioned properly  */
 
 .right_icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 20px;
-    color: grey;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: grey;
+  cursor: pointer;
 }
 
-.right_icons>h4 {
-    font-size: 13px;
-    margin-top: 7px;
-    font-weight: 400;
+.right_icons > h4 {
+  font-size: 13px;
+  margin-top: 7px;
+  font-weight: 400;
 }
 
-
-
-/* main container*/
+/* padding added to left and right side of main contaienr*/
 
 .main-body {
-    display: flex;
-    padding: 0px 150px;
-
+  display: flex;
+  padding: 0px 150px;
 }
-
-
-
 
 /* sidebar */
 
-
+/* This s left side continer which contains name , post , howmany connections i have */
 .sidebar {
-    background-color: white;
-    width: 200px;
-    text-align: center;
-    position: sticky;
-    border-radius: 10px;
-    margin-top: 70px;
-
+  width: 200px;
+  text-align: center;
+  position: sticky;
+  border-radius: 10px;
+  margin-top: 70px;
 }
 
+/* my photo on the left stide styled here */
 #my_img_info {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
+/* thie is cover photo behind my image */
 .sidebar_top .background-img {
-    width: 200px;
-    height: 100px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-bottom: -40px;
+  width: 200px;
+  height: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: -40px;
 }
 
 .sidebar_top img {
-    width: 70px;
+  width: 70px;
 }
 
+/* left side upper section styled here */
 .sidebar_top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid lightgrey;
-    border-bottom: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-color: white;
-    padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgrey;
+  border-bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  padding-bottom: 20px;
 }
 
 .sidebar_top .name {
-    padding-top: 5px;
-    padding-bottom: 10px;
-
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
+/* left sidebar middle section */
 .sidebar_stat {
-
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border: 1px solid lightgrey;
-    background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid lightgrey;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .name {
-    font-size: 17px;
-    ;
+  font-size: 17px;
 }
 
 .post {
-    color: grey;
+  color: grey;
 }
 
 .sidebar_stat {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar_stats p {
-    color: grey;
-    font-size: 15px;
-    font-weight: 600;
+  color: grey;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .sidebar_recentitem {
-    display: flex;
-    padding: 10px;
-
+  display: flex;
+  padding: 10px;
 }
 
 .sidebar_statnumber {
-    color: blue;
+  color: blue;
 }
 
-
+/* recent section of left contaienr */
 .sidebar_bottom {
-    padding: 10px;
-    border: 1px solid lightgrey;
-    text-align: left;
-    border-radius: 10px;
-
+  padding: 10px;
+  border: 1px solid lightgrey;
+  text-align: left;
+  border-radius: 10px;
+  background-color: white;
 }
 
-
-
-/* middle post section */
-
+/* This is middle post section which contains photo,video,job etc */
 .middle_postsection {
-
-    background-color: white;
-    display: flex;
-    padding: 10px 15px;
-    flex-direction: column;
-    margin-top: 70px;
-    margin-left: 20px;
-    height: 110px;
-    width: 600px;
-    border: 1px solid grey;
-    border-radius: 10px;
-
+  background-color: white;
+  display: flex;
+  padding: 10px 15px;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-left: 20px;
+  height: 110px;
+  width: 600px;
+  border: 1px solid grey;
+  border-radius: 10px;
 }
 
 .post_input {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .post_input input {
-    border: 0.5px solid grey;
-    cursor: pointer;
-    width: 90%;
-    margin-left: 8px;
-    padding: 15px;
-    border-radius: 20px;
+  border: 0.5px solid grey;
+  cursor: pointer;
+  width: 90%;
+  margin-left: 8px;
+  padding: 15px;
+  border-radius: 20px;
 }
 
 .post_input img {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
 }
 
+/* photo,video,job icons aligned here */
 .icons {
-
-    justify-content: space-evenly;
-    text-align: center;
-    padding: 10px;
-    display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px;
+  display: flex;
 }
 
 .icons span {
-    color: grey;
-    cursor: pointer;
+  color: grey;
+  cursor: pointer;
 }
 
 .post_logos {
-    padding: 5px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-
-
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .post_logos img {
-    width: 25px;
-    margin-right: 7px;
+  width: 25px;
+  margin-right: 7px;
 }
 
-
+/* This post contains flipkart , amazon post container */
 .main-posts {
-    border: 1px solid grey;
-    margin-top: 10px;
-    padding: 0px 10px;
-    background-color: white;
-    border-radius: 10px;
+  border: 1px solid grey;
+  margin-top: 10px;
+  padding: 0px 10px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .post_header {
-    display: flex;
-
+  display: flex;
 }
 
 .post_header .flipkart_icon {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .post_header .amazon_icon {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 .post_body img {
-    width: 530px;
-    border-radius: 10px;
+  width: 530px;
+  border-radius: 10px;
 }
 
 .post_info span {
-    color: grey;
-    font-size: 15px;
-    padding: 7px;
+  color: grey;
+  font-size: 15px;
+  padding: 7px;
 }
 
 .post_info p {
-    font-size: 15px;
-    padding: 7px;
-    cursor: pointer;
+  font-size: 15px;
+  padding: 7px;
+  cursor: pointer;
 }
 
-
+/* like,share,comment button styled here and aligned  */
 .feedinput_options {
-    display: flex;
-    justify-content: space-evenly;
-    border-top: 1px solid grey;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid grey;
 }
 
 .input_op {
-    display: flex;
-    text-align: center;
-    padding: 10px 20px;
-    border-radius: 10px;
+  display: flex;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
 .input_op img {
-    width: 20px;
-    margin-right: 10px;
-
+  width: 20px;
+  margin-right: 10px;
 }
 
 /* middle posts css */
 
-
-
-/* right widjets starts here */
+/* right container linkedin news section styled here */
 .top_right_widjets {
-    background-color: white;
-    margin-top: 70px;
-    border: 1px solid gray;
-    width: 300px;
-    height: 250px;
-    margin-left: 20px;
-    border-radius: 10px;
-
-
+  background-color: white;
+  margin-top: 70px;
+  border: 1px solid gray;
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+  border-radius: 10px;
 }
 
 .linkdin_news h4 {
-    text-align: center;
-    border-bottom: 1px solid gray;
-    padding: 10px;
-
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding: 10px;
 }
 
 .top_right_widjets .lists_ares {
-    margin-left: 20px;
-    font-size: 15px;
-    padding: 15px;
-    background-color: white;
+  margin-left: 20px;
+  font-size: 15px;
+  padding: 15px;
+  background-color: white;
 }
 
 .top_right_widjets .lists_ares ul li {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 /* right widjets ends here */
 
-
 .right_bottom {
-    height: 250px;
-    width: 300px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 15px;
-    background-color: white;
+  height: 250px;
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color: white;
 }
 
+/* right bottom section image styled here */
 .who_hiring_linkdin img {
-    width: 95%;
-    object-fit: cover;
-    align-items: center;
-    border-radius: 10px;
-    margin-left: 10px;
-    position: sticky;
-    top: 100px;
-
-
-
+  width: 95%;
+  object-fit: cover;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 10px;
+  position: sticky;
+  top: 100px;
 }
